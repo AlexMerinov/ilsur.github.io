@@ -1,0 +1,733 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="#">
+    <link rel="image_src" href="#">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="pageDescription" content="">
+    <meta property="twitterDescription" content="">
+    <meta name="description" content="" />
+
+    <title>Shared City</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+
+<header class="header" id="js-header">
+    <a href="index.html" class="header__logo">
+        <img src="img/logo-a.svg" alt="Shared City" width="305" height="64" class="header__logo__img">
+    </a>
+    <div class="header__burger" id="js-burger">
+        <div class="header__burger__line"></div>
+    </div>
+    <ul class="header__menu">
+        <li class="header__menu__item "> <!--<li class="header__menu__item header__menu__item--current"> active menu-->
+            <a href="#" class="header__menu__link">Topics</a>
+        </li>
+          <li class="header__menu__item">
+            <a href="#" class="header__menu__link">Cases</a>
+        </li>
+          <li class="header__menu__item">
+            <a href="#" class="header__menu__link">Cities</a>
+        </li>
+    </ul>
+</header>
+
+<div class="wrapper">
+
+<article class="article">
+
+<h1 class="h2">Cities</h1>
+
+<div class="csearch">
+    <div class="csearch__left">
+        <form action="#" class="search">
+            <input type="text" class="search__input">
+            <button class="search__btn"><span class="icon-ico-search"></span></button>
+        </form>
+        <div class="tab">
+            <a href="#" class="tab__item "><span class="icon-ico-list tab__item__ico"></span> List</a>
+            <a href="#" class="tab__item tab__item--active"><span class="icon-ico-map tab__item__ico"></span> Map</a>
+        </div>
+    </div>
+    <div class="csearch__right">
+        <ul class="tags tags--small">
+            <li class="tags__item">
+                <a href="#" class="tag tag--small" data-tag="#">Infrastructure</a>
+            </li>
+            <li class="tags__item">
+                <a href="#" class="tag tag--small" data-tag="#">Transport</a>
+            </li>
+            <li class="tags__item">
+                <a href="#" class="tag tag--small" data-tag="#">Public space</a>
+            </li>
+            <li class="tags__item">
+                <a href="#" class="tag tag--small" data-tag="#">Social data</a>
+            </li>
+            <li class="tags__item">
+                <a href="#" class="tag tag--small" data-tag="#">Infrastructure</a>
+            </li>
+            <li class="tags__item">
+                <a href="#" class="tag tag--small" data-tag="#">Transport</a>
+            </li>
+            <li class="tags__item">
+                <a href="#" class="tag tag--small" data-tag="#">Public space</a>
+            </li>
+            <li class="tags__item">
+                <a href="#" class="tag tag--small" data-tag="#">Social data</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="unwrap">
+
+    <div class="citymap citymap--showcenter" id='js-citymap' data-map="30.31,59.94">
+
+        <div class="citymap__item js-citymap-places" data-map="138.364,-34.5544" data-country="AU" data-src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1e6-1f1f9.svg">
+
+            <div class="citymap__marker" data-country="AU">
+                <div class="citymap__marker__btn">
+                    <a href="#" class="citymap__marker__city">
+                        <span class="flag flag--smallest"><img src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1e6-1f1f9.svg" alt=""></span>
+                        Adelaide </a>
+                    <a href="#" class="citymap__marker__case">1 cases</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="citymap__item js-citymap-places" data-map="4.54,52.22" data-country="NL" data-src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1f3-1f1f1.svg">
+
+            <div class="citymap__marker" data-country="NL">
+                <div class="citymap__marker__btn">
+                    <a href="#" class="citymap__marker__city">
+                        <span class="flag flag--smallest"><img src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1f3-1f1f1.svg" alt=""></span>
+                        Amsterdam </a>
+                    <a href="#" class="citymap__marker__case">2 cases</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="citymap__item js-citymap-places" data-map="28.4934,41.0226" data-country="TR" data-src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1f9-1f1f7.svg">
+
+            <div class="citymap__marker" data-country="TR">
+                <div class="citymap__marker__btn">
+                    <a href="#" class="citymap__marker__city">
+                        <span class="flag flag--smallest"><img src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1f9-1f1f7.svg" alt=""></span>
+                        Bagcilar </a>
+                    <a href="#" class="citymap__marker__case">1 cases</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="citymap__item js-citymap-places" data-map="-05.5548,54.3547" data-country="GB" data-src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1ec-1f1e7.svg">
+
+            <div class="citymap__marker" data-country="GB">
+                <div class="citymap__marker__btn">
+                    <a href="#" class="citymap__marker__city">
+                        <span class="flag flag--smallest"><img src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1ec-1f1e7.svg" alt=""></span>
+                        Belfast </a>
+                    <a href="#" class="citymap__marker__case">1 cases</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="citymap__item js-citymap-places" data-map="-01.5409,52.2848" data-country="GB" data-src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1ec-1f1e7.svg">
+
+            <div class="citymap__marker" data-country="GB">
+                <div class="citymap__marker__btn">
+                    <a href="#" class="citymap__marker__city">
+                        <span class="flag flag--smallest"><img src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1ec-1f1e7.svg" alt=""></span>
+                        Birmingham </a>
+                    <a href="#" class="citymap__marker__case">1 cases</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="citymap__item js-citymap-places" data-map="145.4613,-16.5549" data-country="AU" data-src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1e6-1f1f9.svg">
+
+            <div class="citymap__marker" data-country="AU">
+                <div class="citymap__marker__btn">
+                    <a href="#" class="citymap__marker__city">
+                        <span class="flag flag--smallest"><img src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1e6-1f1f9.svg" alt=""></span>
+                        Cairns </a>
+                    <a href="#" class="citymap__marker__case">1 cases</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="citymap__item js-citymap-places" data-map="-8.2545,40.1240" data-country="PT" data-src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1f5-1f1f9.svg">
+
+            <div class="citymap__marker" data-country="PT">
+                <div class="citymap__marker__btn">
+                    <a href="#" class="citymap__marker__city">
+                        <span class="flag flag--smallest"><img src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1f5-1f1f9.svg" alt=""></span>
+                        Coimbra </a>
+                    <a href="#" class="citymap__marker__case">1 cases</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="citymap__item js-citymap-places" data-map="12.3406,55.4034" data-country="DK" data-src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1e9-1f1f0.svg">
+
+            <div class="citymap__marker" data-country="DK">
+                <div class="citymap__marker__btn">
+                    <a href="#" class="citymap__marker__city">
+                        <span class="flag flag--smallest"><img src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1e9-1f1f0.svg" alt=""></span>
+                        Copenhagen </a>
+                    <a href="#" class="citymap__marker__case">1 cases</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="citymap__item js-citymap-places" data-map="-96.4832,32.4645" data-country="US" data-src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1fa-1f1f8.svg">
+
+            <div class="citymap__marker" data-country="US">
+                <div class="citymap__marker__btn">
+                    <a href="#" class="citymap__marker__city">
+                        <span class="flag flag--smallest"><img src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1fa-1f1f8.svg" alt=""></span>
+                        Dallas </a>
+                    <a href="#" class="citymap__marker__case">1 cases</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="citymap__item js-citymap-places" data-map="72.5346,3.2954" data-country="MV" data-src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1f2-1f1fb.svg">
+
+            <div class="citymap__marker" data-country="MV">
+                <div class="citymap__marker__btn">
+                    <a href="#" class="citymap__marker__city">
+                        <span class="flag flag--smallest"><img src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1f2-1f1fb.svg" alt=""></span>
+                        Dhidhoofinolhu island </a>
+                    <a href="#" class="citymap__marker__case">1
+                        cases</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="citymap__item js-citymap-places" data-map="-3.189,55.953" data-country="GB" data-src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1ec-1f1e7.svg">
+
+            <div class="citymap__marker" data-country="GB">
+                <div class="citymap__marker__btn">
+                    <a href="#" class="citymap__marker__city">
+                        <span class="flag flag--smallest"><img src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1ec-1f1e7.svg" alt=""></span>
+                        Edinburgh </a>
+                    <a href="#" class="citymap__marker__case">1 cases</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="citymap__item js-citymap-places" data-map="5.29,51.26" data-country="NL" data-src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1f3-1f1f1.svg">
+
+            <div class="citymap__marker" data-country="NL">
+                <div class="citymap__marker__btn">
+                    <a href="#" class="citymap__marker__city">
+                        <span class="flag flag--smallest"><img src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1f3-1f1f1.svg" alt=""></span>
+                        Eindhoven </a>
+                    <a href="#" class="citymap__marker__case">1 cases</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="citymap__item js-citymap-places" data-map="12.43,56.03" data-country="SE" data-src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1f8-1f1ea.svg">
+
+            <div class="citymap__marker" data-country="SE">
+                <div class="citymap__marker__btn">
+                    <a href="#" class="citymap__marker__city">
+                        <span class="flag flag--smallest"><img src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1f8-1f1ea.svg" alt=""></span>
+                        Helsingborg </a>
+                    <a href="#" class="citymap__marker__case">1 cases</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="citymap__item js-citymap-places" data-map="24.5615,60.1015" data-country="FI" data-src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1eb-1f1ee.svg">
+
+            <div class="citymap__marker" data-country="FI">
+                <div class="citymap__marker__btn">
+                    <a href="#" class="citymap__marker__city">
+                        <span class="flag flag--smallest"><img src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1eb-1f1ee.svg" alt=""></span>
+                        Helsinki </a>
+                    <a href="#" class="citymap__marker__case">1 cases</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="citymap__item js-citymap-places" data-map="27.3525,47.0925" data-country="RO" data-src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1f7-1f1f4.svg">
+
+            <div class="citymap__marker" data-country="RO">
+                <div class="citymap__marker__btn">
+                    <a href="#" class="citymap__marker__city">
+                        <span class="flag flag--smallest"><img src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1f7-1f1f4.svg" alt=""></span>
+                        Iasi </a>
+                    <a href="#" class="citymap__marker__case">1 cases</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="citymap__item js-citymap-places" data-map="21.10,55.45" data-country="LT" data-src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1f1-1f1f9.svg">
+
+            <div class="citymap__marker" data-country="LT">
+                <div class="citymap__marker__btn">
+                    <a href="#" class="citymap__marker__city">
+                        <span class="flag flag--smallest"><img src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1f1-1f1f9.svg" alt=""></span>
+                        Klaipeda </a>
+                    <a href="#" class="citymap__marker__case">1 cases</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="citymap__item js-citymap-places" data-map="32.29,37.52" data-country="TR" data-src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1f9-1f1f7.svg">
+
+            <div class="citymap__marker" data-country="TR">
+                <div class="citymap__marker__btn">
+                    <a href="#" class="citymap__marker__city">
+                        <span class="flag flag--smallest"><img src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1f9-1f1f7.svg" alt=""></span>
+                        Konya </a>
+                    <a href="#" class="citymap__marker__case">1 cases</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="citymap__item js-citymap-places" data-map="-60.19,-33.21" data-country="AR" data-src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1e6-1f1f7.svg">
+
+            <div class="citymap__marker" data-country="AR">
+                <div class="citymap__marker__btn">
+                    <a href="#" class="citymap__marker__city">
+                        <span class="flag flag--smallest"><img src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1e6-1f1f7.svg" alt=""></span>
+                        La Emilia </a>
+                    <a href="#" class="citymap__marker__case">1 cases</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="citymap__item js-citymap-places" data-map="-118.15,34.03" data-country="US" data-src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1fa-1f1f8.svg">
+
+            <div class="citymap__marker" data-country="US">
+                <div class="citymap__marker__btn">
+                    <a href="#" class="citymap__marker__city">
+                        <span class="flag flag--smallest"><img src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1fa-1f1f8.svg" alt=""></span>
+                        Los Angeles </a>
+                    <a href="#" class="citymap__marker__case">3 cases</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="citymap__item js-citymap-places" data-map="22.3413,51.1453" data-country="PL" data-src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1f5-1f1f1.svg">
+
+            <div class="citymap__marker" data-country="PL">
+                <div class="citymap__marker__btn">
+                    <a href="#" class="citymap__marker__city">
+                        <span class="flag flag--smallest"><img src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1f5-1f1f1.svg" alt=""></span>
+                        Lublin </a>
+                    <a href="#" class="citymap__marker__case">1 cases</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="citymap__item js-citymap-places" data-map="6.755,49.3642" data-country="LU" data-src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1f1-1f1fa.svg">
+
+            <div class="citymap__marker" data-country="LU">
+                <div class="citymap__marker__btn">
+                    <a href="#" class="citymap__marker__city">
+                        <span class="flag flag--smallest"><img src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1f1-1f1fa.svg" alt=""></span>
+                        Luxembourg </a>
+                    <a href="#" class="citymap__marker__case">1 cases</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="citymap__item js-citymap-places" data-map="-2.1443,53.2846" data-country="GB" data-src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1ec-1f1e7.svg">
+
+            <div class="citymap__marker" data-country="GB">
+                <div class="citymap__marker__btn">
+                    <a href="#" class="citymap__marker__city">
+                        <span class="flag flag--smallest"><img src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1ec-1f1e7.svg" alt=""></span>
+                        Manchester </a>
+                    <a href="#" class="citymap__marker__case">1 cases</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="citymap__item js-citymap-places" data-map="-111.4922,33.2520" data-country="US" data-src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1fa-1f1f8.svg">
+
+            <div class="citymap__marker" data-country="US">
+                <div class="citymap__marker__btn">
+                    <a href="#" class="citymap__marker__city">
+                        <span class="flag flag--smallest"><img src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1fa-1f1f8.svg" alt=""></span>
+                        Mesa </a>
+                    <a href="#" class="citymap__marker__case">1 cases</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="citymap__item js-citymap-places" data-map="-80.1232,25.4631" data-country="US" data-src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1fa-1f1f8.svg">
+
+            <div class="citymap__marker" data-country="US">
+                <div class="citymap__marker__btn">
+                    <a href="#" class="citymap__marker__city">
+                        <span class="flag flag--smallest"><img src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1fa-1f1f8.svg" alt=""></span>
+                        Miami </a>
+                    <a href="#" class="citymap__marker__case">1 cases</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="citymap__item js-citymap-places" data-map="-90.08,29.95" data-country="US" data-src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1fa-1f1f8.svg">
+
+            <div class="citymap__marker" data-country="US">
+                <div class="citymap__marker__btn">
+                    <a href="#" class="citymap__marker__city">
+                        <span class="flag flag--smallest"><img src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1fa-1f1f8.svg" alt=""></span>
+                        New Orleans </a>
+                    <a href="#" class="citymap__marker__case">1 cases</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="citymap__item js-citymap-places" data-map="-74.005974,40.712740" data-country="US" data-src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1fa-1f1f8.svg">
+
+            <div class="citymap__marker" data-country="US">
+                <div class="citymap__marker__btn">
+                    <a href="#" class="citymap__marker__city">
+                        <span class="flag flag--smallest"><img src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1fa-1f1f8.svg" alt=""></span>
+                        New York City </a>
+                    <a href=#" class="citymap__marker__case">3 cases</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="citymap__item js-citymap-places" data-map="-1.09,52.57" data-country="GB" data-src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1ec-1f1e7.svg">
+
+            <div class="citymap__marker" data-country="GB">
+                <div class="citymap__marker__btn">
+                    <a href="#" class="citymap__marker__city">
+                        <span class="flag flag--smallest"><img src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1ec-1f1e7.svg" alt=""></span>
+                        Nottingham </a>
+                    <a href="#" class="citymap__marker__case">1 cases</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="citymap__item js-citymap-places" data-map="-1.1528,51.457" data-country="GB" data-src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1ec-1f1e7.svg">
+
+            <div class="citymap__marker" data-country="GB">
+                <div class="citymap__marker__btn">
+                    <a href="#" class="citymap__marker__city">
+                        <span class="flag flag--smallest"><img src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1ec-1f1e7.svg" alt=""></span>
+                        Oxford </a>
+                    <a href="#" class="citymap__marker__case">1 cases</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="citymap__item js-citymap-places" data-map="2.2108,48.5124" data-country="FR" data-src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1eb-1f1f7.svg">
+
+            <div class="citymap__marker" data-country="FR">
+                <div class="citymap__marker__btn">
+                    <a href="#" class="citymap__marker__city">
+                        <span class="flag flag--smallest"><img src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1eb-1f1f7.svg" alt=""></span>
+                        Paris </a>
+                    <a href="#" class="citymap__marker__case">1 cases</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="citymap__item js-citymap-places" data-map="-75.0949,39.5710" data-country="US" data-src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1fa-1f1f8.svg">
+
+            <div class="citymap__marker" data-country="US">
+                <div class="citymap__marker__btn">
+                    <a href="#" class="citymap__marker__city">
+                        <span class="flag flag--smallest"><img src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1fa-1f1f8.svg" alt=""></span>
+                        Philadelphia </a>
+                    <a href="#" class="citymap__marker__case">1 cases</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="citymap__item js-citymap-places" data-map="4.30,51.55" data-country="NL" data-src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1f3-1f1f1.svg">
+
+            <div class="citymap__marker" data-country="NL">
+                <div class="citymap__marker__btn">
+                    <a href="#" class="citymap__marker__city">
+                        <span class="flag flag--smallest"><img src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1f3-1f1f1.svg" alt=""></span>
+                        Rotterdam </a>
+                    <a href="#" class="citymap__marker__case">1 cases</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="citymap__item js-citymap-places" data-map="-117.0945,32.4254" data-country="US" data-src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1fa-1f1f8.svg">
+
+            <div class="citymap__marker" data-country="US">
+                <div class="citymap__marker__btn">
+                    <a href="#" class="citymap__marker__city">
+                        <span class="flag flag--smallest"><img src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1fa-1f1f8.svg" alt=""></span>
+                        San Diego </a>
+                    <a href="#" class="citymap__marker__case">1 cases</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="citymap__item js-citymap-places" data-map="-122.2459,37.4639" data-country="US" data-src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1fa-1f1f8.svg">
+
+            <div class="citymap__marker" data-country="US">
+                <div class="citymap__marker__btn">
+                    <a href="#" class="citymap__marker__city">
+                        <span class="flag flag--smallest"><img src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1fa-1f1f8.svg" alt=""></span>
+                        San Francisco </a>
+                    <a href="#" class="citymap__marker__case">1 cases</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="citymap__item js-citymap-places" data-map="103.50,1.17" data-country="SG" data-src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1f8-1f1ec.svg">
+
+            <div class="citymap__marker" data-country="">
+                <div class="citymap__marker__btn">
+                    <a href="#" class="citymap__marker__city">
+                        <span class="flag flag--smallest"><img src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1f8-1f1ec.svg" alt=""></span>
+                        Singapore </a>
+                    <a href="#" class="citymap__marker__case">2 cases</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="citymap__item js-citymap-places" data-map="18.47,59.1946" data-country="SE" data-src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1f8-1f1ea.svg">
+
+            <div class="citymap__marker" data-country="SE">
+                <div class="citymap__marker__btn">
+                    <a href="#" class="citymap__marker__city">
+                        <span class="flag flag--smallest"><img src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1f8-1f1ea.svg" alt=""></span>
+                        Stockholm </a>
+                    <a href="#" class="citymap__marker__case">1 cases</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="citymap__item js-citymap-places" data-map="151.1234,-33.5154" data-country="AU" data-src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1e6-1f1f9.svg">
+
+            <div class="citymap__marker" data-country="AU">
+                <div class="citymap__marker__btn">
+                    <a href="#" class="citymap__marker__city">
+                        <span class="flag flag--smallest"><img src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1e6-1f1f9.svg" alt=""></span>
+                        Sydney </a>
+                    <a href="#" class="citymap__marker__case">2 cases</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="citymap__item js-citymap-places" data-map="0.03,51.27" data-country="GB" data-src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1ec-1f1e7.svg">
+
+            <div class="citymap__marker" data-country="GB">
+                <div class="citymap__marker__btn">
+                    <a href="#"
+                       class="citymap__marker__city">
+                        <span class="flag flag--smallest"><img src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1ec-1f1e7.svg" alt=""></span>
+                        The Royal Borough of Greenwich </a>
+                    <a href="#"
+                       class="citymap__marker__case">1 cases</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="citymap__item js-citymap-places" data-map="-123.0650,49.1539" data-country="CA" data-src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1e8-1f1e6.svg">
+
+            <div class="citymap__marker" data-country="CA">
+                <div class="citymap__marker__btn">
+                    <a href="#" class="citymap__marker__city">
+                        <span class="flag flag--smallest"><img src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1e8-1f1e6.svg" alt=""></span>
+                        Vancouver </a>
+                    <a href="#" class="citymap__marker__case">1 cases</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="citymap__item js-citymap-places" data-map="16.22,48.12" data-country="AT" data-src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1e6-1f1f9.svg">
+
+            <div class="citymap__marker" data-country="AT">
+                <div class="citymap__marker__btn">
+                    <a href="#" class="citymap__marker__city">
+                        <span class="flag flag--smallest"><img src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1e6-1f1f9.svg" alt=""></span>
+                        Vienna </a>
+                    <a href="#" class="citymap__marker__case">2 cases</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="citymap__item js-citymap-places" data-map="21.1,52.14" data-country="PL" data-src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1f5-1f1f1.svg">
+
+            <div class="citymap__marker" data-country="PL">
+                <div class="citymap__marker__btn">
+                    <a href="#" class="citymap__marker__city">
+                        <span class="flag flag--smallest"><img src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1f5-1f1f1.svg" alt=""></span>
+                        Warsaw </a>
+                    <a href="#" class="citymap__marker__case">1 cases</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="citymap__item js-citymap-places" data-map="-77.0147,38.9101" data-country="US" data-src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1fa-1f1f8.svg">
+
+            <div class="citymap__marker" data-country="US">
+                <div class="citymap__marker__btn">
+                    <a href="#" class="citymap__marker__city">
+                        <span class="flag flag--smallest"><img src="https://s.w.org/images/core/emoji/13.0.1/svg/1f1fa-1f1f8.svg" alt=""></span>
+                        Washington, D.C. </a>
+                    <a href="#" class="citymap__marker__case">1
+                        cases</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--
+    <div class="citymap" id='js-citymap' data-map="30.31,59.94">
+        <div class="citymap__item js-citymap-places" data-map="30.307646082031138,59.94632586674931">
+
+            <div class="citymap__marker">
+                <div class="citymap__marker__btn">
+                    <a href="#" class="citymap__marker__city">
+                        <img src="img/ru.png" alt="" width="28" height="20" class="flag flag--smallest">
+                        St. Peterburg
+                    </a>
+                    <a href="#" class="citymap__marker__case">3 cases</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="citymap__item js-citymap-places" data-map="37.61860055552007,55.75222377270266">
+            <div class="citymap__marker">
+                <div class="citymap__marker__btn">
+                    <a href="#" class="citymap__marker__city">
+                        <img src="img/ru.png" alt="" width="28" height="20" class="flag flag--smallest">
+                        Moscow
+                    </a>
+                    <a href="#" class="citymap__marker__case">5 cases</a>
+                </div>
+            </div>
+        </div>
+        <div class="citymap__item js-citymap-places" data-map="49.10822314152562,55.79662060347919">
+            <div class="citymap__marker">
+                <div class="citymap__marker__btn">
+                    <a href="#" class="citymap__marker__city">
+                        <img src="img/ru.png" alt="" width="28" height="20" class="flag flag--smallest">
+                        Kazan
+                    </a>
+                    <a href="#" class="citymap__marker__case">12 cases</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="citymap__item js-citymap-places" data-map="21.016460778620967,52.243220395641465">
+            <div class="citymap__marker">
+                <div class="citymap__marker__btn">
+                    <a href="#" class="citymap__marker__city">
+                        <img src="img/ru.png" alt="" width="28" height="20" class="flag flag--smallest">
+                        Warsaw
+                    </a>
+                    <a href="#" class="citymap__marker__case">1 case</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+-->
+</div>
+
+<script src='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css' rel='stylesheet'/>
+</article>
+
+<footer class="footer">
+    <div class="footer__copy">
+        2020
+    </div>
+    <div class="footer__text">
+        ProjectName is a European exchange and learning programme promoting sustainable urban development. We enable CITIES to work together to develop solutions to major urban challenges, reaffirming the key role ther play in facing increasingly complex societal changes.
+    </div>
+    <ul class="footer__menu">
+
+            <li class="footer__menu__item"> <!-- <li class="footer__menu__item footer__menu__item--current"> -->
+                <a href="#" class="linkblack">About us</a>
+            </li>
+            <li class="footer__menu__item">
+                <a href="#" class="linkblack">Legal notice</a>
+            </li>
+
+
+    </ul>
+
+</footer>
+
+</div>
+
+<!--
+<div class="modal modal--active">
+    <div class="modal__close js-modal-close">x</div>
+    <div class="modal__gallery">
+        <img src="img/1.jpg" class="modal__gallery__img">
+    </div>
+    <div class="modal__arr modal__arr--left icon-ico-left modal__arr--disabled"></div>
+    <div class="modal__arr modal__arr--right icon-ico-right"></div>
+    <div class="loader modal__loader"><div></div><div></div><div></div><div></div></div>
+    <div class="modal__mask js-modal-close"></div>
+</div>
+-->
+
+<script src="js/scripts.js"></script>
+</body>
+</html>
